@@ -3,7 +3,7 @@
 @import '../../styles';
 .card-statistics {
   .highlight-icon {
-    height: 53px;
+    height: 83px;
     width: 53px;
     @include display-flex;
     @include align-items(center);
@@ -150,4 +150,12 @@
       }
     }
   }
+}
+
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
 }

@@ -2,7 +2,7 @@
 
 .card {
   border: 0;
-  @include border-radius(2px);
+  @include border-radius(1px);
   .card-body {
     padding: $card-padding-y $card-padding-x;
     + .card-body {
